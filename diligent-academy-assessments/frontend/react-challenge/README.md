@@ -1,3 +1,4 @@
+# Tóth Lajos
 # React challenge
 
 Create a React component for listing heroes.
