@@ -1,0 +1,34 @@
+.hero-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  h2 {
+    margin-left: 0; 
+  }
+  
+  .hero-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 16px; 
+    margin-left: 0; 
+    width: 100%; 
+  }
+  
+  .hero-item {
+    padding: 16px;
+    box-sizing: border-box; 
+    transition: color 0.3s ease; 
+    cursor: pointer; 
+    border: none; 
+  }
+  
+  .hero-item.available {
+    color: green; 
+  }
+  
+  .hero-item{
+    color: red; 
+  }
+  
